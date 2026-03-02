@@ -23,7 +23,7 @@ Use a corpus about food in the Greek language to do the following:
 3. Compute the probabilities and perplexities of two sentences—provided in the instructions (use add one smoothing and log(p) when encountering zeros)
 4. Generate a sentence in Greek. Sample the first word according to the unigram probabilitiy, sample the next word using conditional probability, and then repeat until you get a dot as your token.
 
-The folder for the assignment is located [here.]()
+The folder for the assignment is located [here.](https://github.com/regmckie/CS6320-NLP_Portfolio/tree/main/Homework2)
 
 ### Assignment 3: Word2vec Exploration and spaCy
 Use Word2vec to do the following:
@@ -37,7 +37,7 @@ Come up with your own sentence and use spaCy to do the following:
 * Named entity recognition
 * Dependency parsing
 
-The folder for the assignment is located [here.]()
+The folder for the assignment is located [here.](https://github.com/regmckie/CS6320-NLP_Portfolio/tree/main/Homework3)
 
 ### Assignment 4: Protege Exploration
 Take this sentence/story: "John has a sister Jane. Jane has an older brother Mark. Jane is 21 years old." and complete the following:
@@ -48,11 +48,12 @@ make the inference.
 2. Come up with a question to the story and write a SPARQL query that answers the question. Also, use Protege to load the RDF into the graph and visualize the sentence.
 3. Using RDFLib (an open-source Python library), load the RDF into the graph and run the same SPARQL query. Again, feel free to use GPT for API calls.
 
-The folder for the assignment is located [here.]()
+The folder for the assignment is located [here.](https://github.com/regmckie/CS6320-NLP_Portfolio/tree/main/Homework4)
 
 ### Project: NLP-Based Recipe Recommendation System
 Our project’s goal is to develop a suggestion system that uses NLP to understand user input and suggests recipes based on meal type such as breakfast, lunch or dinner. If the user input is unclear, then it will suggest a recipe based on the current time of day. Additionally, we will create a user profile for each person's likes and dislikes, which will be taken into account when suggesting new recipes.
 
 The project’s goal involved implementing an individualized recipe recommendation system that leverages the power of NLP and utilizes dynamic weighting. The focus was to deliver a solution that adjusts to users’ inputs, which are typically highly dynamic in user-interactive projects such as recommendation systems. Dynamic feature weighting was utilized since the application entailed context-sensitive outputs, chatting AI, and individualized recommendations.
 
-The folder for the project is located [here.]()
+The GitHub for the project is located [here.](https://github.com/hkwheat/6320_recipe_suggestor)
+The video presentation for the project is located [here.](https://photos.onedrive.com/share/E27ED588191AC32A!s3594ba21d4b8414088dce9717eb01750?cid=E27ED588191AC32A&resId=E27ED588191AC32A!s3594ba21d4b8414088dce9717eb01750&ithint=video&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy9lMjdlZDU4ODE5MWFjMzJhL0VTRzZsRFc0MUVCQmlOenBjWDZ3RjFBQnlvNHMyeU9CTlphc0FLNVhscDhNVHc )
