@@ -1,7 +1,7 @@
 # CS 6320 (Natural Language Processing) Portfolio
 This is a portfolio for CS 6320.002 (Natural Language Processing). This portfolio is for the Fall 2024 semester at the University of Texas at Dallas, taught by Tatiana Erekhinskaya.
 
-### Assignment 1: Basic Basic Concepts & Questions
+### Assignment 1: Basic Concepts & Questions
 Answer/complete the three following questions:
 1. Ambiguity is the central concept in NLP. Please come up with an original
 sentence that can be (partially) ambiguous. Explain the two meanings that you can see.
