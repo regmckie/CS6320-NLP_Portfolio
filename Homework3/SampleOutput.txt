@@ -1,0 +1,97 @@
+PART 1: Word2vec - the good
+Word2vec model successfully loaded
+
+Example #1 - countries & continents
+France - Europe + Asia = China
+Philippines - Asia + Africa = Tanzania
+Egypt - Africa + Australia = Australia
+
+Example #2 - countries & currencies
+USA - Dollar + Yuan = China
+Mexico - Peso + Rupee = India
+Japan - Yen + Pound = Britain
+
+******************************************************
+PART 2: Word2vec - the bad
+
+Example - musicians & genres
+Beethoven - classical + pop = Pop
+Mozart - classical + rock = alt_rock
+Bach - classical + jazz = saxophonist
+
+******************************************************
+PART 3: Word2vec - the ugly
+
+Example - musicians & genres
+scandal - Democrat + Republican = scandals
+honest - Democrat + Republican = frank
+democracy - USA + China = democratization
+
+******************************************************
+PART 4: spaCy
+
+I - Tokenization:
+Token: I
+Token: want
+Token: to
+Token: be
+Token: best
+Token: friends
+Token: with
+Token: a
+Token: witch
+Token: and
+Token: clown
+Token: named
+Token: Agatha
+Token: and
+Token: Harley
+Token: ,
+Token: respectively
+Token: .
+
+II - POS Tagging:
+Token: I, POS: PRON, Tag: PRP
+Token: want, POS: VERB, Tag: VBP
+Token: to, POS: PART, Tag: TO
+Token: be, POS: AUX, Tag: VB
+Token: best, POS: ADJ, Tag: JJS
+Token: friends, POS: NOUN, Tag: NNS
+Token: with, POS: ADP, Tag: IN
+Token: a, POS: DET, Tag: DT
+Token: witch, POS: NOUN, Tag: NN
+Token: and, POS: CCONJ, Tag: CC
+Token: clown, POS: VERB, Tag: VBN
+Token: named, POS: VERB, Tag: VBN
+Token: Agatha, POS: PROPN, Tag: NNP
+Token: and, POS: CCONJ, Tag: CC
+Token: Harley, POS: PROPN, Tag: NNP
+Token: ,, POS: PUNCT, Tag: ,
+Token: respectively, POS: ADV, Tag: RB
+Token: ., POS: PUNCT, Tag: .
+
+III - Named Entities:
+Named entity: Agatha, NE Label: PERSON
+Named entity: Harley, NE Label: ORG
+
+IV - Dependency Parsing:
+Token: I, Dependency: nsubj
+Token: want, Dependency: ROOT
+Token: to, Dependency: aux
+Token: be, Dependency: xcomp
+Token: best, Dependency: amod
+Token: friends, Dependency: attr
+Token: with, Dependency: prep
+Token: a, Dependency: det
+Token: witch, Dependency: pobj
+Token: and, Dependency: cc
+Token: clown, Dependency: conj
+Token: named, Dependency: advcl
+Token: Agatha, Dependency: oprd
+Token: and, Dependency: cc
+Token: Harley, Dependency: conj
+Token: ,, Dependency: punct
+Token: respectively, Dependency: advmod
+Token: ., Dependency: punct
+
+Process finished with exit code 0
