@@ -14,7 +14,7 @@ context.
 3. Find 3 favorite commercial NLP companies or products. Give a brief explanation
 of why you like them.
 
-The folder for the assignment is located [here.]()
+The folder for the assignment is located [here.](https://github.com/regmckie/CS6320-NLP_Portfolio/blob/main/Homework%201.pdf)
 
 ### Assignment 2: Tokenization, Unigram & Bigram Count, and Computing Probabilities and Perplexities using a Greek Corpus
 Use a corpus about food in the Greek language to do the following:
